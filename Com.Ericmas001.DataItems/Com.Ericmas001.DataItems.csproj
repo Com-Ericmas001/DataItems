@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F63A728-FDC7-425C-A414-6DD1574A67AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Com.Ericmas001.DataItems</RootNamespace>
+    <AssemblyName>Com.Ericmas001.DataItems</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile344</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BunchOfDataItems.cs" />
+    <Compile Include="Fields\BaseField.cs" />
+    <Compile Include="Fields\CheckListSimpleField.cs" />
+    <Compile Include="Fields\DateSimpleField.cs" />
+    <Compile Include="Fields\FieldListItem.cs" />
+    <Compile Include="Fields\FieldTypeAttribute.cs" />
+    <Compile Include="Fields\FieldTypeEnum.cs" />
+    <Compile Include="Fields\GuidSimpleField.cs" />
+    <Compile Include="Fields\IField.cs" />
+    <Compile Include="Fields\IntPairSimpleField.cs" />
+    <Compile Include="Fields\IntSimpleField.cs" />
+    <Compile Include="Fields\ListSimpleField.cs" />
+    <Compile Include="Fields\SimpleField.cs" />
+    <Compile Include="Fields\TextSimpleField.cs" />
+    <Compile Include="Fields\TimeSimpleField.cs" />
+    <Compile Include="Fields\UpperTextSimpleField.cs" />
+    <Compile Include="Filters\Attributes\FilterCommandAttribute.cs" />
+    <Compile Include="Filters\Attributes\FilterComparatorAttribute.cs" />
+    <Compile Include="Filters\Attributes\FiltersAttribute.cs" />
+    <Compile Include="Filters\Commands\IFilterCommand.cs" />
+    <Compile Include="Filters\Commands\MustNotSimpleFilterCommand.cs" />
+    <Compile Include="Filters\Commands\MustSimpleFilterCommand.cs" />
+    <Compile Include="Filters\Commands\SimpleFilterCommand.cs" />
+    <Compile Include="Filters\Comparators\ComparableSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\ContainsSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\EndsWithSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\GreaterEqualSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\GreaterThanSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\IFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\IntBetweenSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\IntEqualSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\IntNotEqualSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\SimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\SmallerEqualSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\SmallerThanSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\StartsWithSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Comparators\TextEqualSimpleFilterComparator.cs" />
+    <Compile Include="Filters\Enums\FilterCommandEnum.cs" />
+    <Compile Include="Filters\Enums\FilterComparatorEnum.cs" />
+    <Compile Include="Filters\Enums\FilterEnum.cs" />
+    <Compile Include="Filters\FilterInfo.cs" />
+    <Compile Include="IBunchOfDataItems.cs" />
+    <Compile Include="IDataItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Com.Ericmas001.Common, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Com.Ericmas001.Common.0.2.0\lib\Com.Ericmas001.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
