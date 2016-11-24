@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Com.Ericmas001.Common;
 using Com.Ericmas001.DataItems.Fields;
 using Com.Ericmas001.DataItems.Filters.Attributes;
 using Com.Ericmas001.DataItems.Filters.Enums;
@@ -46,8 +47,8 @@ namespace Com.Ericmas001.DataItems.Filters.Comparators
             set
             {
                 m_Comparator = value;
-                Description = EnumFactory<FilterComparatorEnum>.ToString(m_Comparator);
-                FieldTypeOverrideAttribute = EnumFactory<FilterComparatorEnum>.GetAttribute<FieldTypeAttribute>(m_Comparator);
+                Description = m_Comparator.DisplayName();
+                FieldTypeOverrideAttribute = m_Comparator.GetAttribute<FieldTypeAttribute>();
             }
         }
         public abstract bool IsDataFiltered(object comparatorValue, object value, IDataItem item);

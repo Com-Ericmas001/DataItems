@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Com.Ericmas001.Common;
 
 namespace Com.Ericmas001.DataItems.Fields
 {

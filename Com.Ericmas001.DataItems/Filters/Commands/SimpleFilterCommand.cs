@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Com.Ericmas001.Common;
 using Com.Ericmas001.DataItems.Filters.Attributes;
 using Com.Ericmas001.DataItems.Filters.Comparators;
 using Com.Ericmas001.DataItems.Filters.Enums;
@@ -45,7 +46,7 @@ namespace Com.Ericmas001.DataItems.Filters.Commands
             set
             {
                 m_Command = value;
-                Description = EnumFactory<FilterCommandEnum>.ToString(m_Command);
+                Description = m_Command.DisplayName();
             }
         }
 
