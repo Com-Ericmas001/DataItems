@@ -35,8 +35,8 @@
       <HintPath>..\packages\Com.Ericmas001.Common.0.4.6\lib\net40\Com.Ericmas001.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Com.Ericmas001.Windows, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Com.Ericmas001.Windows.0.3.0\lib\net45\Com.Ericmas001.Windows.dll</HintPath>
+    <Reference Include="Com.Ericmas001.Windows, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Com.Ericmas001.Windows.0.4.0\lib\net45\Com.Ericmas001.Windows.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight, Version=5.3.0.19026, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
