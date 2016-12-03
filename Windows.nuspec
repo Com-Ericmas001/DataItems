@@ -15,6 +15,7 @@
         <copyright />
         <language>en</language>
         <dependencies>
+            <dependency id="Com-Ericmas001.DataItems" version="0.2.0" />
             <dependency id="Com-Ericmas001.Windows" version="0.3.0" />
         </dependencies>
     </metadata>

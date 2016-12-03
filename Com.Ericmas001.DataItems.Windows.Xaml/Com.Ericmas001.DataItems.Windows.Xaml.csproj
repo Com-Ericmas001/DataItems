@@ -118,6 +118,10 @@
       <Project>{39fefb23-f249-4965-87df-39dddbbc4f96}</Project>
       <Name>Com.Ericmas001.DataItems.Windows</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Com.Ericmas001.DataItems\Com.Ericmas001.DataItems.csproj">
+      <Project>{0f63a728-fdc7-425c-a414-6dd1574a67ab}</Project>
+      <Name>Com.Ericmas001.DataItems</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

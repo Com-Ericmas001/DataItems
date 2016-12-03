@@ -35,10 +35,6 @@
       <HintPath>..\packages\Com.Ericmas001.Common.0.4.6\lib\net40\Com.Ericmas001.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Com.Ericmas001.DataItems, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Com.Ericmas001.DataItems.0.1.1\lib\net40\Com.Ericmas001.DataItems.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Com.Ericmas001.Windows, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Com.Ericmas001.Windows.0.3.0\lib\net45\Com.Ericmas001.Windows.dll</HintPath>
       <Private>True</Private>
@@ -97,7 +93,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Com.Ericmas001.DataItems\Com.Ericmas001.DataItems.csproj">
+      <Project>{0f63a728-fdc7-425c-a414-6dd1574a67ab}</Project>
+      <Name>Com.Ericmas001.DataItems</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
