@@ -19,6 +19,6 @@
         </dependencies>
     </metadata>
     <files>
-    	<file src="Com.Ericmas001.Windows.Xaml\bin\$configuration$\Com.Ericmas001.Windows.Xaml.dll" target="lib\net45\" />
+    	<file src="Com.Ericmas001.DataItems.Windows.Xaml\bin\$configuration$\Com.Ericmas001.DataItems.Windows.Xaml.dll" target="lib\net45\" />
   </files>
 </package>
