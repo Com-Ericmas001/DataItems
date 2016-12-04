@@ -15,8 +15,8 @@
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Templates/Filters/AddAFilterTemplate.xaml"/>
-                <ResourceDictionary Source="/Templates/Filters/FiltersViewerTemplate.xaml"/>
+                <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/Filters/AddAFilterTemplate.xaml"/>
+                <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/Filters/FiltersViewerTemplate.xaml"/>
                 <ResourceDictionary Source="/Com.Ericmas001.Windows.Xaml;component/Resources/ImageResources.xaml"/>
                 <ResourceDictionary Source="/Com.Ericmas001.Windows.Xaml;component/Styles/ButtonStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>

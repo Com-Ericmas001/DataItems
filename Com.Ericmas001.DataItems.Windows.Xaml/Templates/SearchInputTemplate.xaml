@@ -3,10 +3,10 @@
                     xmlns:templateSelectors="clr-namespace:Com.Ericmas001.DataItems.Windows.TemplateSelectors;assembly=Com.Ericmas001.DataItems.Windows">
     
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="SearchInputTemplate/SearchTextTemplate.xaml"/>
-        <ResourceDictionary Source="SearchInputTemplate/SearchDateTemplate.xaml"/>
-        <ResourceDictionary Source="SearchInputTemplate/SearchListTemplate.xaml"/>
-        <ResourceDictionary Source="SearchInputTemplate/SearchPairTemplate.xaml"/>
+        <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/SearchInputTemplate/SearchTextTemplate.xaml"/>
+        <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/SearchInputTemplate/SearchDateTemplate.xaml"/>
+        <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/SearchInputTemplate/SearchListTemplate.xaml"/>
+        <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/SearchInputTemplate/SearchPairTemplate.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 
     <templateSelectors:SearchInputTemplateSelector

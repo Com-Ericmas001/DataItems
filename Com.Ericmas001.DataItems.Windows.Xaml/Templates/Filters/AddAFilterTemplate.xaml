@@ -2,9 +2,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="CommandsDataTemplate.xaml"/>
-        <ResourceDictionary Source="ComparatorsDataTemplate.xaml"/>
-        <ResourceDictionary Source="FieldTypesDataTemplate.xaml"/>
+        <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/Filters/CommandsDataTemplate.xaml"/>
+        <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/Filters/ComparatorsDataTemplate.xaml"/>
+        <ResourceDictionary Source="/Com.Ericmas001.DataItems.Windows.Xaml;component/Templates/Filters/FieldTypesDataTemplate.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     <DataTemplate x:Key="EmptyTemplate" />
     <DataTemplate x:Key="AddAFilterTemplate">
