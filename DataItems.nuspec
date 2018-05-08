@@ -15,7 +15,8 @@
         <copyright />
         <language>en</language>
         <dependencies>
-            <dependency id="Com.Ericmas001.Common" version="0.4.6" />
+          <dependency id="Com.Ericmas001.Common" version="0.5.1" />
+          <dependency id="Newtonsoft.Json" version="11.0.2" />
         </dependencies>
     </metadata>
     <files>

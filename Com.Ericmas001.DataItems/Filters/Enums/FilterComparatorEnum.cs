@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using Com.Ericmas001.DataItems.Fields;
+﻿using Com.Ericmas001.DataItems.Fields;
 using Com.Ericmas001.Common.Attributes;
 
 namespace Com.Ericmas001.DataItems.Filters.Enums

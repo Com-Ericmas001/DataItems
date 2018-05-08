@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using Com.Ericmas001.DataItems.Fields;
+﻿using Com.Ericmas001.DataItems.Fields;
 using Com.Ericmas001.DataItems.Filters.Attributes;
 using Com.Ericmas001.Common.Attributes;
 
