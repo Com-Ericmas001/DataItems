@@ -1,7 +1,7 @@
 # Com.Ericmas001.Windows 
 [![com-ericmas001 MyGet Build Status](https://www.myget.org/BuildSource/Badge/com-ericmas001?identifier=bca70fa9-cd12-4aea-821e-b7bb6d6edfae)](https://www.myget.org/)4aea-821e-b7bb6d6edfae
 
-###Current Version: 0.3.0 *(2018-05-08)*
+###Current Version: 0.3.1 *(2018-05-08)*
 
 <table align="center" width="100%">
     <tbody>

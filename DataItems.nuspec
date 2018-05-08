@@ -20,8 +20,6 @@
         </dependencies>
     </metadata>
     <files>
-    	<file src="Com.Ericmas001.DataItems\bin\$configuration$\Com.Ericmas001.DataItems.dll" target="lib\net40\" />
-    	<file src="Com.Ericmas001.DataItems\bin\$configuration$\Com.Ericmas001.DataItems.dll" target="lib\portable-net45+wp80+win8+wpa81\" />
-    	<file src="Com.Ericmas001.DataItems\bin\$configuration$\Com.Ericmas001.DataItems.dll" target="lib\portable-net40+sl5+wp80+win8+wpa81\" />
+    	<file src="Com.Ericmas001.DataItems\bin\$configuration$\Com.Ericmas001.DataItems.dll" target="lib\net45\" />
   </files>
 </package>
